@@ -345,6 +345,9 @@ a .card:hover > .card-wrapper p {
         height: 190px;
         width: 190px;
     }
+    .nova-data, .objetivo {
+        text-align: center;
+    }
 }
 .creditos {
   font-size: 12px;
