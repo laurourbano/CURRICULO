@@ -1,2 +1,2 @@
-# curriculo
+# projeto de curriculo
  curriculo
