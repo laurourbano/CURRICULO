@@ -36,8 +36,7 @@
           },
           "configurations": {
             "production": {
-              "budgets": [
-                {
+              "budgets": [{
                   "type": "initial",
                   "maximumWarning": "500kb",
                   "maximumError": "1mb"
@@ -100,5 +99,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "9efdc755-2b07-4cdd-83c4-417bec74c915"
   }
 }

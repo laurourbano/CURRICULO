@@ -1,0 +1,46 @@
+<div class="dados">
+  <div class="border" *ngIf="jsonData; else noJsonData">
+    <h4>Dados Pessoais</h4>
+    <mat-card class="mat-elevation-z10 card">
+      <table class="table">
+        <tr>
+          <th>CPF</th>
+          <th>Nome</th>
+          <th>Idade</th>
+          <th>Email</th>
+          <th>Telefone</th>
+          <th>Cidade</th>
+        </tr>
+        <tr>
+          <td>{{jsonData.cpf}}</td>
+          <td>{{jsonData.nome}}</td>
+          <td>{{ idade }}</td>
+          <td><a href="mailto: {{jsonData.contato.email}}">{{jsonData.contato.email}}</a></td>
+          <td><a href="tel:+55{{jsonData.contato.telefone}}">{{jsonData.contato.telefone}}</a></td>
+          <td>{{jsonData.endereco.cidade}}</td>
+        </tr>
+      </table>
+    </mat-card>
+
+    <h4>Redes Sociais:</h4>
+
+    <div class="social-links">
+      <a mat-raised-button href="{{redeSocial.link}}" target="_blank" *ngFor="let redeSocial of redesSociais">
+        <i class="{{redeSocial.icone}}"></i>
+      </a>
+    </div>
+
+    <h4>Interesses:</h4>
+
+    <div class="interesses">
+      <div>
+        <p *ngFor="let interesse of interesses">{{interesse}}</p>
+      </div>
+    </div>
+  </div>
+  <ng-template #noJsonData>
+    <mat-card class="mat-elevation-z10 center">
+      <h3>Carregando<span> . . .</span></h3>
+    </mat-card>
+  </ng-template>
+</div>

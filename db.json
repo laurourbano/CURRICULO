@@ -1,0 +1,184 @@
+{
+  "curriculo": {
+    "dadosPessoais": {
+      "nome": "Lauro Otávio Urbano",
+      "dataNascimento": "1985-11-30",
+      "sexo": "M",
+      "estadoCivil": "Solteiro",
+      "nacionalidade": "Brasileira",
+      "naturalidade": "Curitiba",
+      "cpf": "041.084.609-01",
+      "endereco": {
+        "logradouro": "Rua Andre Woss",
+        "numero": "16",
+        "complemento": "Casa 1",
+        "bairro": "Jardim São Gabriel",
+        "cidade": "Colombo",
+        "estado": "PR",
+        "cep": "83404-720"
+      },
+      "contato": {
+        "telefone": "41998086077",
+        "email": "lauro@outlook.com.br"
+      },
+      "redesSociais": [{
+          "nome": "Linkedin",
+          "link": "http://www.linkedin.com/in/laurourbano",
+          "icone": "fa-brands fa-linkedin-in"
+        },
+        {
+          "nome": "Github",
+          "link": "http://github.com/laurourbano",
+          "icone": "fab fa-github"
+        }
+      ],
+      "interesses": [
+        "Tecnologia",
+        "Programação",
+        "Games",
+        "Jogos",
+        "Esportes",
+        "Música",
+        "Filmes",
+        "Séries"
+      ]
+    },
+    "dadosProfissionais": {
+      "objetivo": "Desenvolvedor Front-End",
+      "resumo": "Desenvolvedor Front-End com experiência em Angular e React.",
+      "habilidades": [{
+          "nome": "Angular",
+          "nivel": "Avançado"
+        },
+        {
+          "nome": "React",
+          "nivel": "Intermediário"
+        },
+        {
+          "nome": "HTML5",
+          "nivel": "Avançado"
+        },
+        {
+          "nome": "CSS3",
+          "nivel": "Avançado"
+        },
+        {
+          "nome": "JavaScript",
+          "nivel": "Avançado"
+        },
+        {
+          "nome": "TypeScript",
+          "nivel": "Intermediário"
+        },
+        {
+          "nome": "Bootstrap",
+          "nivel": "Intermediário"
+        },
+        {
+          "nome": "Git",
+          "nivel": "Intermediário"
+        },
+        {
+          "nome": "Java",
+          "nivel": "Básico"
+        },
+        {
+          "nome": "Angular Material",
+          "nivel": "Básico"
+        },
+        {
+          "nome": "SQL",
+          "nivel": "Básico"
+        }
+      ],
+      "certificacoes": [{
+          "nome": "HTML5",
+          "instituicao": "Alura",
+          "dataConclusao": "2018-01-01"
+        },
+        {
+          "nome": "CSS3",
+          "instituicao": "DevMedia",
+          "dataConclusao": "2018-01-01"
+        },
+        {
+          "nome": "JavaScript",
+          "instituicao": "Alura",
+          "dataConclusao": "2018-01-01"
+        },
+        {
+          "nome": "Angular",
+          "instituicao": "Alura, DevMedia, Loiane.training",
+          "dataConclusao": "2018-01-01"
+        },
+        {
+          "nome": "React",
+          "instituicao": "DevMedia",
+          "dataConclusao": "2018-01-01"
+        }
+      ],
+      "experiencia": {
+        "empresa": "iUUL",
+        "cargo": "Residente/Desenvolvedor Front-End",
+        "dataInicio": "2022-10-01",
+        "dataFim": "",
+        "atividades": [
+          "Desenvolvimento de aplicações web com Angular e TypeScript",
+          "Manutenção de aplicações web com Angular e TypeScript",
+          "Planejamento de sprints",
+          "Reuniões semanais",
+          "Planejamento de arquitetura de software",
+          "Planejamento de testes unitários e de integração"
+        ]
+      },
+      "projetos": [{
+          "nome": "Desafio 1",
+          "descricao": "Criação de um site Portifólio",
+          "link": "http://www.projeto1.com.br"
+        },
+        {
+          "nome": "Desafio 2",
+          "descricao": "Alterando o Portifólio para Armazenar mensagens recebidas e Aplicar Práticas de Usabilidade",
+          "link": "http://www.projeto2.com.br"
+        },
+        {
+          "nome": "Projeto 3",
+          "descricao": "Criação de uma aplicação em console de um banco com funcionalidades baseado em Orientação a Objetos e com requisitos definidos em um documento de requisitos",
+          "link": "http://www.projeto3.com.br"
+        },
+        {
+          "nome": "Projeto 4",
+          "descricao": "Criação de uma aplicação web com Angular e TypeScript para conversão de moedas, utilizando uma API externa",
+          "link": "http://www.projeto4.com.br"
+        },
+        {
+          "nome": "Desafio 5",
+          "descricao": "Espelhamento com um projeto real, fazendo a manutenção e implementando novas funcionalidades. Construindo uma nova branch para realizar o desafio. Utilizando autenticação Azure, e consumo de API do projeto real, Endpoints disponibilizados via swagger",
+          "link": ""
+        }
+      ]
+    },
+    "dadosEducacionais": {
+      "formacao": [{
+        "instituicao": "Universidade Cruzeiro do Sul",
+        "curso": "Análise e Desenvolvimento de Sistemas",
+        "dataInicio": "2020-01-31",
+        "dataFim": "2022-12-15",
+        "status": "Concluído"
+      }],
+      "idiomas": [{
+          "nome": "Português",
+          "nivel": "Nativo"
+        },
+        {
+          "nome": "Inglês",
+          "nivel": "Básico"
+        },
+        {
+          "nome": "Espanhol",
+          "nivel": "Básico"
+        }
+      ]
+    }
+  }
+}

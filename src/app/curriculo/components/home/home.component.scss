@@ -1,0 +1,115 @@
+.dados {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  width: 100%;
+  margin-bottom: 10px;
+
+}
+
+.border {
+  border-radius: 5px;
+  padding: 0 0 30px 0;
+  margin: 15px;
+  background-color: blanchedalmond;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  width: 100%;
+  padding: 5px;
+  border-radius: 5px;
+
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  background-color: blanchedalmond;
+  translate: transform(-50%, -50%);
+  border-radius: 5px;
+  padding: 5px;
+  margin: 5px;
+}
+
+.card .table {
+  text-align: justify;
+  width: 100%;
+}
+
+th {
+  text-align: start;
+  background-color: #3f51b5;
+  color: white;
+  padding: 5px;
+}
+
+td {
+  padding: 5px;
+  color: #3f51b5;
+}
+
+a {
+  text-decoration: none;
+  color: #a19;
+}
+
+a:hover {
+  color: blue;
+  text-decoration: underline;
+}
+
+.social-links {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  border-radius: 5px;
+  padding: 5px 0;
+}
+
+.social-links a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: #3f51b5;
+  width: 100%;
+  padding: 5px;
+  margin: 5px;
+}
+
+.interesses {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-between;
+  border-radius: 5px;
+}
+
+.interesses div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.interesses p {
+  display: flex;
+  border: 1px solid #3f51b5;
+  border-radius: 5px;
+  color: #3f51b5;
+  padding: 5px;
+  margin: 5px;
+  width: calc(20% - 10px);
+  justify-content: center;
+  align-items: center;
+}
